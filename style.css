@@ -214,10 +214,6 @@ footer{
     opacity: 0.8;
 }
 @media(max-width:765px){
-    nav yl,a{
-        text-align: center
-        flex-direction: column;
-    }
     form{
         width: 50%;
     }
