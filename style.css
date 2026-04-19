@@ -227,16 +227,27 @@ footer{
             padding: 5px;
         }
     }
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
     nav {
-        width: 120px; 
-        font-size: 14px; 
-        padding: 10px;
+        display: block !important; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 80px !important; 
+        padding: 10px 5px;
+        z-index: 1000;
     }
-    nav a {   
-        padding: 8px 5px;
-        margin-bottom: 5px;
-        display: block; 
+
+    nav a {
+        font-size: 11px !important; 
+        padding: 10px 2px !important;
+        text-align: center;
+        display: block;
+        word-wrap: break-word; 
+    }
+    main, section, header {
+        margin-left: 85px !important; 
     }
 }
 .container {
