@@ -215,7 +215,7 @@ footer{
 }
 @media(max-width:765px){
     nav yl,a{
-        text-align: center;
+        text-align: center
         flex-direction: column;
     }
     form{
@@ -226,6 +226,17 @@ footer{
         th,td{
             padding: 5px;
         }
+    }
+    @media (max-width: 768px) {
+    nav {
+        width: 120px; 
+        font-size: 14px; 
+        padding: 10px;
+    }
+    nav a {   
+        padding: 8px 5px;
+        margin-bottom: 5px;
+        display: block; 
     }
 }
 .container {
